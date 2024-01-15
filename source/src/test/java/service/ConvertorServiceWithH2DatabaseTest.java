@@ -17,8 +17,6 @@ import java.util.ArrayList;
 import static org.assertj.core.api.Assertions.assertThat;
 import static org.junit.jupiter.api.Assertions.assertEquals;
 import static org.mockito.ArgumentMatchers.eq;
-
-
 @ExtendWith(MockitoExtension.class)
 @SpringBootTest(classes = {ConvertorService.class, RateRecordsRepository.class})
 public class ConvertorServiceWithH2DatabaseTest {
